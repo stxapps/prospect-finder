@@ -1,0 +1,15 @@
+{
+  "name": "prospect-finder",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "process-kaggle": "node --import=specifier-resolution-node/register src/process-kaggle.js",
+    "process-threads": "node --import=specifier-resolution-node/register src/process-threads.js"
+  },
+  "dependencies": {
+    "@fast-csv/parse": "^5.0.2",
+    "specifier-resolution-node": "^1.1.4",
+    "twitter-api-v2": "^1.18.0"
+  }
+}
